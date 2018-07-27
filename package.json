@@ -1,0 +1,26 @@
+{
+  "name": "nodemybatis",
+  "version": "0.0.1",
+  "description": "nodeMybatis",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "typescript": "^2.9.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "tap"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chinesesoule/NodeMybatis.git"
+  },
+  "author": "chineseSoule",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chinesesoule/NodeMybatis/issues"
+  },
+  "homepage": "https://github.com/chinesesoule/NodeMybatis#readme"
+}
