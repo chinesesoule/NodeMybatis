@@ -2,16 +2,24 @@
   "name": "nodemybatis",
   "version": "0.0.1",
   "description": "nodeMybatis",
-  "main": "index.js",
+  "main": "build/core/connection.js",
   "directories": {
     "lib": "lib"
   },
   "dependencies": {
     "typescript": "^2.9.2"
   },
-  "devDependencies": {},
+  "keywords": [
+    "ts",
+    "nodemybatis"
+  ],
+  "devDependencies": {
+    "@types/node": "^10.5.3",
+    "net": "^1.0.2"
+  },
   "scripts": {
-    "test": "tap"
+    "test": "tap",
+    "start":"node build/core/connection.js"
   },
   "repository": {
     "type": "git",
