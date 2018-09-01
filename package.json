@@ -15,11 +15,12 @@
   ],
   "devDependencies": {
     "@types/node": "^10.5.3",
-    "net": "^1.0.2"
+    "net": "^1.0.2",
+    "ts-node": "^7.0.1"
   },
   "scripts": {
     "test": "tap",
-    "start":"node build/core/connection.js"
+    "start": "node build/core/connection.js"
   },
   "repository": {
     "type": "git",

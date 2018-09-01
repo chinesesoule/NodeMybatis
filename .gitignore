@@ -1,4 +1,7 @@
-# 模块
 node_modules/
-#编译目录
 build/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
