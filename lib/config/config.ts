@@ -10,7 +10,10 @@ class config {
     //连接超时
     private connectionTimeout?: number = 10000;
     //日期是否以字符串形式返回
+    //日期类型为:DATETIME,TIMESTAMPs
     //返回格式为:yyyy-MM-dd HH:mm:ss
+    //日期类型为:date
+    //返回格式为:yyyy-MM-dd
     //如果为false则直接映射为javascript的日期类型
     private dateString?: boolean = true;
     //连接的数据库名称
@@ -20,6 +23,8 @@ class config {
     //是否自动提交事务
     private autoCommit: boolean = true;
     //是否是只读事务
+    //取值范围为:true,false,auto
+    //auto:读操作则开启只读事务,写操作关闭只读事务
     private readonly: boolean = false;
     //设置数据库编码
     private encoding: string = 'utf8';
@@ -27,7 +32,7 @@ class config {
     private localAddress: string | undefined;
     //本地连接端口号
     private localPort: number | undefined;
-    //是否接收完成数据后断开连接
+    //数据接收完成后是否断开连接
     private finshDataClose: boolean = true;
     //是否序列化对象
     private serializationObject: boolean = false;
@@ -40,5 +45,5 @@ class config {
     //验证数据库的SQL
     private verifySql: string = 'SELECT 1'
     //是否启用连接池
-    private isPool: boolean = false;
+    private isEnablePool: boolean = false;
 }
