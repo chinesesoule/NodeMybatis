@@ -13,7 +13,7 @@ export const COM_PING = 0X0E;
 export const COM_TABLE_DUMP = 0X13;
 export const COM_STMT_PREPARE = 0X16;
 export const COM_STMT_EXECUTE = 0X17;
-export const COM_STMT_SEND_LONG_DATA 0X18;
+export const COM_STMT_SEND_LONG_DATA = 0X18;
 export const COM_STMT_CLOSE = 0X019;
 export const COM_STMT_RESET = 0X1A;
 export const COM_SET_OPTION = 0X1B;
