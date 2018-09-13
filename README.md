@@ -1,3 +1,4 @@
 # NodeMybatis
-    nodejsMybatis框架是基于Mysql的TCP/IP协议开发的，目前正在设计阶段
+    nodejsMybatis是一款能够将业务与SQL的ORM框架，数据库目前只支持MYSQL
+    
     
